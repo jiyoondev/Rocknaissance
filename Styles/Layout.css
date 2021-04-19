@@ -10,15 +10,15 @@ a {
 .ly_container {
   width: 1200px;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right top, #fdfbfb, #ebedee);
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: linear-gradient(to right top, #fdfbfb, #cfd9df);
 }
 
 .ly_top-header {
   /* padding-top: 1rem; */
-  width: 100%;
+  width: 1200px;
   /* background-color: #c1c9d6; */
   background: linear-gradient(to right top, #ebedee, #cfd9df);
 
@@ -29,7 +29,7 @@ a {
   padding-top: 0.2rem;
   height: 8vh;
   box-sizing: border-box;
-  position: sticky;
+  position: fixed;
 }
 
 .ly_top-header .home-icon,
@@ -66,9 +66,15 @@ a {
 .home-navigation ul {
   /* width: 60%; */
   display: flex;
+  flex-wrap: nowrap;
   justify-content: flex-end;
 }
 
 .home-navigation li {
   margin-left: 2rem;
+}
+
+.home-image img {
+  width: 850px;
+  height: auto;
 }
